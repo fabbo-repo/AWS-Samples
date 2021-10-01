@@ -7,13 +7,13 @@ Examples of code implemented in Python3, using AWS Lex V2, AWS Polly, and AWS Tr
 * The botCredentials.json file contains the data needed to establish a session with the bot.
 
 > It is necessary to install additional libraries:
-    ~~~
-    pip install -r requirements.txt
-    ~~~
+~~~
+pip install -r requirements.txt
+~~~
 > or update them:
-    ~~~
-    pip install --upgrade -r requirements.txt
-    ~~~
+~~~
+pip install --upgrade -r requirements.txt
+~~~
 
 ## boto3 API:
 * [lexv2-runtime](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/lexv2-runtime.html)
