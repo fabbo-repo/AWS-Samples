@@ -1,5 +1,4 @@
-Python and C++ code samples using Lex V2, Polly, Transcribe and Lambda
--------------------------------------
+# Python and C++ code samples using Lex V2, Polly, Transcribe and Lambda
 
 * To verify that the aws cli has been installed, run the command:
 ~~~
