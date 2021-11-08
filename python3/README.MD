@@ -1,5 +1,4 @@
 # Python code samples using Lex V2, Polly, Transcribe and Lambda
-==============================================================
 
 Code samples implemented in Python3, using AWS Lex V2, AWS Polly, AWS Transcribe and Amazon Lambda services.
 
