@@ -1,0 +1,17 @@
+{
+    "sessionState": {
+        "sessionAttributes": {
+            "currentProduct": "coche"
+        },
+        "dialogAction": {
+            "type": "Close"
+        },
+        "state": "Fulfilled"
+    },
+    "messages": [
+        {
+            "contentType": "PlainText",
+            "content": "Ya hemos acabado!"
+        }
+    ]
+}

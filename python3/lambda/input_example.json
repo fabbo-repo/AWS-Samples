@@ -1,0 +1,104 @@
+{
+    "sessionId": "528719699046755", 
+    "inputTranscript": "Test lambda con coche", 
+    "interpretations": 
+    [
+        {
+            "intent":
+            {
+                "slots": 
+                {
+                    "ProductSlot": 
+                    {
+                        "value": 
+                        {
+                            "originalValue": "coche", 
+                            "resolvedValues": ["coche"], 
+                            "interpretedValue": "coche"
+                        }, 
+                        "shape": "Scalar"
+                    }
+                }, 
+                "confirmationState": "None", 
+                "name": "TestLambda", 
+                "state": "ReadyForFulfillment"
+            }, 
+            "nluConfidence": 0.92
+        }, 
+        {
+            "intent": 
+            {
+                "slots": {}, 
+                "confirmationState": "None", 
+                "name": "Product2Intent", 
+                "state": "ReadyForFulfillment"
+            }, 
+            "nluConfidence": 0.56
+        }, 
+        {
+            "intent": 
+            {
+                "slots": {}, 
+                "confirmationState": "None", 
+                "name": "ExtraIntent", 
+                "state": "ReadyForFulfillment"
+            }, 
+            "nluConfidence": 0.52
+        }, 
+        {
+            "intent": 
+            {
+                "slots": {}, 
+                "confirmationState": "None", 
+                "name": "FallbackIntent", 
+                "state": "ReadyForFulfillment"
+            }
+        }, 
+        {
+            "intent": 
+            {
+                "slots": {}, 
+                "confirmationState": "None", 
+                "name": "TestResponseCard", 
+                "state": "ReadyForFulfillment"
+            }, 
+            "nluConfidence": 0.48
+        }
+    ],
+    "responseContentType": "text/plain; charset=utf-8", 
+    "messageVersion": "1.0", 
+    "invocationSource": "FulfillmentCodeHook", 
+    "sessionState": 
+    {
+        "intent": 
+        {
+            "slots": 
+            {
+                "ProductSlot": 
+                {
+                    "value": 
+                    {
+                        "originalValue": "coche", 
+                        "resolvedValues": ["coche"], 
+                        "interpretedValue": "coche"
+                    }, 
+                    "shape": "Scalar"
+                }
+            }, 
+            "confirmationState": "None", 
+            "name": "TestLambda", 
+            "state": "ReadyForFulfillment"
+        }, 
+        "originatingRequestId": "00aff896-fc2e-44a2-ba1a-03905cd4e29b"
+    }, 
+    "inputMode": "Text", 
+    "bot": 
+    {
+        "aliasId": "TSTALIASID", 
+        "aliasName": "TestBotAlias", 
+        "name": "FabBot", 
+        "version": "DRAFT", 
+        "localeId": "es_ES", 
+        "id": "7OT5UG8WW2"
+    }
+}

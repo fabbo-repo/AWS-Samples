@@ -23,7 +23,7 @@ response = client.recognize_utterance(
     sessionId = botCredentials['sessionId'],
     requestContentType='text/plain; charset=utf-8',
     responseContentType='audio/mpeg',
-    inputStream='Hola'
+    inputStream='como estas?'
 )
 
 client.delete_session(
