@@ -1,5 +1,5 @@
 # C++ code samples using Lex V2
-=============================
+-----------------------------
 
 Code samples implemented in C++, using AWS Lex V2. 
 * The botCredentials.json file contains the data needed to establish a session with the bot.
